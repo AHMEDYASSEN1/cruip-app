@@ -1,0 +1,40 @@
+// @use './breakpoints' as *;
+@mixin circle($wd, $hg, $bg) {
+    width: $wd;
+    height: $hg;
+    background-color: $bg;
+    border-radius: 50%;
+  }
+  @mixin logo($wd, $hg, $bg) {
+    width: $wd;
+    height: $hg;
+    background-image: $bg;
+    border-radius: 50%;
+  }
+  @mixin position($t, $l) {
+    position: absolute;
+    top: $t;
+    left: $l;
+  }
+  
+  @mixin m-text {
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+    h1 {
+      font-size: 42px;
+    }
+    p {
+      font-size: 20px;
+      color: #666666;
+      margin-top: 10px;
+    }
+    @media (max-width: 767px){
+      h1 {
+        font-size: 33px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
