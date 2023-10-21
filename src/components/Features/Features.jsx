@@ -113,7 +113,7 @@ const Features = () => {
           </ul>
         </div>
         <div className="right-side">
-          <img src="../../../public/static/images/features-bg.png"></img>
+          <img src="/static/images/features-bg.png"></img>
         </div>
       </div>
     </motion.div>
