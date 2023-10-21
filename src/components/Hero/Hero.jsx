@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="image">
-        <img src="../../../public/images/hero-image.png"></img>
+        <img src="../../../public/static/images/hero-image.png"></img>
         <div className="logo"></div>
         <button>
           <span>
