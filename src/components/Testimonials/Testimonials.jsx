@@ -34,7 +34,7 @@ const Testimonials = () => {
       </div>
       <div className="images">
         <img
-          src="/images/Facebook,_Inc._Logo_2019.svg.png"
+          src="../../images/testimonial.jpg"
           alt=""
         />
         <img
