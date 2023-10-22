@@ -34,22 +34,22 @@ const Testimonials = () => {
       </div>
       <div className="images">
         <img
-          src="/static/images/Facebook,_Inc._Logo_2019.svg.png"
+          src="/images/Facebook,_Inc._Logo_2019.svg.png"
           alt=""
         />
         <img
-          src="/static/images/Bondebladet_(weekly)_logo_2015.svg.png"
+          src="/images/Bondebladet_(weekly)_logo_2015.svg.png"
           alt=""
         />
-        <img src="/static/images/Nibbleblog_Logo.png" alt="" />
+        <img src="/images/Nibbleblog_Logo.png" alt="" />
         <img
-          src="/static/images/1920px-Graphisoft_logo.svg.png"
+          src="/images/1920px-Graphisoft_logo.svg.png"
           alt=""
         />
-        <img src="/static/images/Ipekevi-logo.svg.png" alt="" />
+        <img src="/images/Ipekevi-logo.svg.png" alt="" />
       </div>
       <div className="testimonials">
-        <img src="/static/images/testimonial.jpg"></img>
+        <img src="/images/testimonial.jpg"></img>
         <p>
           “ I love this product and would recommend it to anyone. Could be not
           easier to use, and our multiple websites are wonderful. We get nice
