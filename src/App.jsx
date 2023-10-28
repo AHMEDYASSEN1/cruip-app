@@ -5,7 +5,6 @@ import Layout from "./components/Layout/Layout";
 import Website from "./Pages/Website";
 import Login from "./Pages/Login/SignIn";
 import SignUp from "./Pages/SignUp/SignUp";
-import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      <Analytics/>
     </Fragment>
   );
 }
